@@ -10,7 +10,16 @@ function App() {
   setCounter = function which is responsible for updating variables
   */
   const addValue = () => {
-   setCounter(counter+1)
+    //counter
+    setCounter((prevCounter) => prevCounter +1)
+    setCounter((prevCounter) => prevCounter +1)
+    setCounter((prevCounter) => prevCounter +1)
+    setCounter((prevCounter) => prevCounter +1)
+
+   
+
+
+
   }
 
   const removeValue = () => { 
